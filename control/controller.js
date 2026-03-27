@@ -14,7 +14,7 @@ const generateToken = (user) => {
     );
 };
 
-
+// employ registration
 exports.createClient = async(req, res) =>{
     try{
         const {name, contact, email, password} = req.body;
@@ -43,7 +43,7 @@ exports.createClient = async(req, res) =>{
     
 }
 
-
+// employ login
 exports.userLogin = async (req, res) => {
     try {
 
